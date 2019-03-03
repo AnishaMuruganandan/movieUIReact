@@ -37,6 +37,7 @@
 }
 
 .searchBox {
+  font-size: 14px;
   margin-top: 0px !important;
   width: 200px;
   height: 30px;
@@ -66,7 +67,7 @@
 
 .dropbtn {
   font-size: 22px;
-  margin-top: 6px;
+    margin-top: 7px;
   margin-right: 30px;
 }
 
@@ -82,8 +83,9 @@
   z-index: 1;
 }
 .dropdown-content-show{
+  right: 10px;
+float: none !important;
 display: block !important;
-display: none;
 position: absolute;
 background-color: #f1f1f1;
 min-width: 160px;

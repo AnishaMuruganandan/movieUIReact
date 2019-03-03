@@ -22,31 +22,25 @@ class FilterComponent extends Component {
     selectedOption: null
   }
 
-  componentDidMount() {
-    $('.js-example-basic-single').select2();
-  }
   handleChange = (selectedOption) => {
     this.setState({selectedOption});
     console.log(`Option selected:`, selectedOption);
   }
   render() {
     const {selectedOption} = this.state;
-    return (<div className="filter">
+    return (<div className="filterMovies">
       <div className="genre">
         <div className="filterTitle">GENRE</div>
-
+      <Select value={selectedOption} onChange={this.handleChange} options={options}/>
       </div>
 
       <div className="rating">
         <div className="filterTitle">RATINGS</div>
         <Select value={selectedOption} onChange={this.handleChange} options={options}/>
       </div>
-      <div>
+      <div className="orderBy">
         <div className="filterTitle">ORDER BY</div>
-        <select className="js-example-basic-single" name="state">
-          <option value="YEAR">YEAR</option>
-          <option value="MONTH">MONTH</option>
-        </select>
+          <Select value={selectedOption} onChange={this.handleChange} options={options}/>
       </div>
 
       <div className="searchButton">
