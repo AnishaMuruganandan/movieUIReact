@@ -1,0 +1,113 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.topSpace {
+  margin-top: 10px !important;
+}
+
+.headerRight nav {
+  margin-right: 30px;
+}
+
+.headerRight nav a {
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.headerRight nav a:hover, .searchBox::placeholder, .headerRight nav a {
+  color: white
+}
+.searchBox::placeholder{
+  font-size: 14px;
+}
+.header {
+  padding: 10px 40px 10px 40px;
+  background-color: #8A49EC;
+  color: white;
+}
+
+.header, .movieListHeader {
+  overflow: auto;
+}
+
+.searchBox {
+  margin-top: 0px !important;
+  width: 200px;
+  height: 30px;
+  padding: 5px 0px;
+  margin-right: 30px;
+  border-radius: 2px;
+  color: white;
+  background-color: #984AEB;
+  border: 1px solid #984AEB;
+  font-family: Arial, FontAwesome;
+  padding-right: 30px;
+}
+
+#search :: before {
+  font-family: 'FontAwesome';
+  color: red;
+  position: relative;
+  left: -5px;
+  content: "\F002";
+}
+
+.searchIcon {
+  position: absolute;
+  right: 40px;
+  top: 10px !important;
+}
+
+.dropbtn {
+  font-size: 22px;
+  margin-top: 6px;
+  margin-right: 30px;
+}
+
+.dropdownHead {
+  display: none;
+}
+
+.dropdown-content-hide {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content-show{
+display: block !important;
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+z-index: 1;
+}
+
+.dropdown-content-show a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.searchItems {
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .header nav {
+    display: none;
+  }
+
+  .dropdownHead {
+    display: block;
+  }
+}
