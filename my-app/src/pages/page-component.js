@@ -15,7 +15,7 @@ class PageComponent extends Component {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     fetch("https://api.myjson.com/bins/1ew88e").then(function(response) {
       return response.json();
     }).then(json => {
