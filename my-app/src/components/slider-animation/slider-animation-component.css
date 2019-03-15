@@ -1,0 +1,51 @@
+.thumbs {
+  display: none;
+}
+.thumbs-wrapper {
+  margin: 0px !important;
+}
+/* .movieListImages {
+  position: relative;
+  width: 500px;
+  left: 50%;
+  transform: translate(-50%, 0);
+} */
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+/* .movieImages1 {
+  position: relative;
+}
+.movieImages2,
+.movieImages3,
+.movieImages4,
+.movieImages5 {
+  position: absolute;
+} */
+/* .movieImage {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  margin-right: 50px;
+  height: 300px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* .movieImages2 {
+  left: 50px;
+}
+.movieImages3 {
+  left: 100px;
+}
+.movieImages4 {
+  right: 150px;
+}
+.movieImages5 {
+  right: 350px;
+} */

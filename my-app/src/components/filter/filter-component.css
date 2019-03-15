@@ -14,7 +14,7 @@
   padding: 10px 0px;
   box-sizing: border-box;
   border-radius: 2px;
-  background-color: #8A49EC;
+  background-color: #8a49ec;
 }
 
 .css-10nd86i {
@@ -28,12 +28,17 @@
   margin-right: 30px;
 }
 
-.genre, .rating, .orderBy, .searchButton {
+.name,
+.title,
+.date,
+.searchButton {
   display: inline-block;
   margin-left: 10px;
 }
 
-.genre, .rating, .orderBy {
+.name,
+.title,
+.date {
   margin-top: 20px;
 }
 
@@ -42,14 +47,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .genre, .rating, .orderBy {
+  .name,
+  .title,
+  .date {
     display: block !important;
   }
-  .genre>.filterTitle{
-        margin-right: 55px;
+  .name > .filterTitle {
+    margin-right: 55px;
   }
-  .rating>.filterTitle{
-        margin-right: 40px;
+  .rating > .filterTitle {
+    margin-right: 40px;
   }
 }
 
